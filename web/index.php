@@ -22,6 +22,7 @@ $domain = $_SERVER["SERVER_NAME"];
 
 if (!array_key_exists($domain, $domainRssUrlMap)) {
     echo "<h2>Unknown domain: $domain</h2>";
+    die();
 }
 
 $link = rssFirstUrl($domainRssUrlMap[$domain]);
