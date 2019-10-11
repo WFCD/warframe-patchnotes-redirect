@@ -4,7 +4,6 @@ $domainRssUrlMap = [
     // PC domains
     "pc.warframestat.us" => "https://forums.warframe.com/forum/3-pc-update-build-notes.xml",
     "pcs.warframestat.us" => "https://forums.warframe.com/forum/3-pc-update-build-notes.xml",
-    "quiet-springs-90213.herokuapp.com" => "https://forums.warframe.com/forum/3-pc-update-build-notes.xml",
     // PS4 domains
     "ps4.warframestat.us" => "https://forums.warframe.com/forum/152-ps4-update-build-notes.xml/",
     // Xbox One domains
