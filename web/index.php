@@ -11,10 +11,9 @@ $domainRssUrlMap = [
     "pcs.warframestat.us" => "https://forums.warframe.com/forum/3-pc-update-notes.xml/",
     // PlayStation domains
     "ps4.warframestat.us" => "https://forums.warframe.com/forum/152-playstation-update-notes.xml/",
-    "ps5.warframestat.us" => "https://forums.warframe.com/forum/152-playstation-update-notes.xml/",
+    "playstation.warframestat.us" => "https://forums.warframe.com/forum/152-playstation-update-notes.xml/",
     // Xbox domains
     "xb1.warframestat.us" => "https://forums.warframe.com/forum/253-xbox-update-notes.xml/",
-    "xsx.warframestat.us" => "https://forums.warframe.com/forum/253-xbox-update-notes.xml/",
     "xbox.warframestat.us" => "https://forums.warframe.com/forum/253-xbox-update-notes.xml/",
     // Nintendo Switch domains
     "switch.warframestat.us" => "https://forums.warframe.com/forum/1196-nintendo-switch-update-notes.xml/",
