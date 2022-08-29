@@ -1,5 +1,0 @@
-{
-    "name": "Warframe Patchnotes Redirect",
-    "description": "Redirects [platform-name].warframestat.us to the newest changelog for said platform.",
-    "repository": "https://github.com/wfcd/warframe-patchnotes-redirect"
-}
