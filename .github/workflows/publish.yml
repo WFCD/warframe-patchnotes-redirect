@@ -33,13 +33,16 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Set lowercase repository name
+        run: |
+          echo "REPO_LC=${GITHUB_REPOSITORY,,}" >> $GITHUB_ENV
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
         with:
           context: .
           push: true
           tags: |
-            ghcr.io/${{ github.repository }}:${{ env.VERSION }}
-            ghcr.io/${{ github.repository }}:latest
+            ghcr.io/${{ env.REPO_LC }}:${{ env.VERSION }}
+            ghcr.io/${{ env.REPO_LC }}:latest
           labels: |
             org.opencontainers.image.version=${{ env.VERSION }}
